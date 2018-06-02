@@ -1,6 +1,10 @@
 {
   "name": "node-rest-api",
   "version": "1.0.0",
+  "engines": {
+    "node": "9.11.1",
+    "npm": "6.1.0"
+  },
   "description": "Modelo de API Rest em Node.js",
   "main": "index.js",
   "scripts": {
