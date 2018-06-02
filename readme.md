@@ -9,7 +9,7 @@ Modelo para desenvolvimento de API Rest
 - Possuir um editor de texto. Minha sugestão é o [VsCode](https://code.visualstudio.com/download)
 
 ## Passo a Passo
- - Clonar o repositorio
+ - Clonar o repositório
 `$ git clone https://github.com/mvdocouto/node-api-rest.git`
 - Entrar na pasta /app
 `$ cd app`
