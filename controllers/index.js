@@ -1,5 +1,7 @@
 const controllers = [
     require('./healthcheck'),
+    require('./home'),
+    require('./users'),
   ];
   
   const controllerRegister = application => {
