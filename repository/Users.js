@@ -1,15 +1,21 @@
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/node_api');
+const Note = require('../models/user');
 
-const Schema = mongoose.Schema,
-    ObjectId = Schema.ObjectId;
- 
-const usersSchema = new Schema({
-    identifier: ObjectId,
-    name: String,
-    login: String,
-    password: String
-});
+exports.create = (req, res) => {
 
-const Users = mongoose.model('Users', usersSchema);
-module.exports = Users;
+};
+
+exports.findAll = (req, res) => {
+
+};
+
+exports.findOne = (req, res) => {
+
+};
+
+exports.update = (req, res) => {
+
+};
+
+exports.delete = (req, res) => {
+
+};
